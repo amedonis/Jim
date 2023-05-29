@@ -1,5 +1,5 @@
 # Jim
-MVVM Architecture
-Room Database
-Hilt
-Coroutines
+#MVVM Architecture
+#Room Database
+#Hilt
+#Coroutines
