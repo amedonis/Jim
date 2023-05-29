@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".presentation.exerciseSet.AddExerciseSetActivity"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_text_set_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginBottom="8dp"
+            android:hint="Set Count"
+            android:gravity="center"
+            android:minWidth="48dp"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/edit_text_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:hint="Weight"
+            android:minWidth="48dp"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            tools:layout_editor_absoluteX="158dp"
+            tools:layout_editor_absoluteY="342dp" />
+    </LinearLayout>
+</layout>
