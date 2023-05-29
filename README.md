@@ -1,5 +1,6 @@
 # Jim
-[^1]: MVVM Architecture
-#Room Database
-#Hilt
-#Coroutines
+[^1]: 
+MVVM Architecture <br />
+Room Database <br />
+Hilt <br />
+Coroutines
